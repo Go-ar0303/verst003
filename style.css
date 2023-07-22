@@ -1,0 +1,171 @@
+.cont {
+  margin: 0px 120px;
+}
+
+body {
+  font-family: 'Lugrasimo', cursive;
+}
+
+/* Style the tab */
+.tab {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background-color: #030303;
+  width: 100%;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #1b1a1a;
+  color: #fff;
+  border: none;
+  padding: 14px 16px;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+.header {
+  background: #ccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.home_main {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding-bottom: 65px;
+
+}
+
+.home_txt {
+  text-align: right;
+  width: 45%;
+  text-align: left;
+  padding-top: 35px;
+
+}
+
+
+.logo_img {
+  width: 95px;
+  height: 115px;
+  padding: 15px;
+}
+
+.city {
+  display: flex;
+  gap: 25px;
+}
+.footer{
+  margin-top: 700px;
+}
+
+.navbar2 {
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.company_main {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.company_txt {
+  text-align: right;
+  width: 45%;
+  text-align: left;
+  padding-top: 5px;
+
+}
+
+.company_img {
+  width: 100%;
+}
+
+footer {
+  border-top: 2px solid white;
+}
+
+.modil_main {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding-bottom: 65px;
+
+}
+
+.auto_main {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  gap: 35px;
+  justify-content: space-between;
+}
+
+.auto_img {
+  width: 850px;
+  height: 850px;
+}
+
+.events_main,
+.service_main {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding-bottom: 65px;
+}
+
+.services_main {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding-bottom: 65px;
+  padding-top: 35px;
+  background: url('bg1.jpg');
+  color: #fff;
+  height: 750px;
+}
+
+.txt_dis {
+  color: #645b5b;
+}
+
+.contacts_main {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 40%);
+  padding-bottom: 65px;
+}
+.contacts_img{
+  width: 750px;
+}
+.cont_img{
+  width: 460px;
+}

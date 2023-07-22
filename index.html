@@ -1,0 +1,882 @@
+<!doctype html>
+<html lang="RU">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:ital,wght@0,300;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="header">
+
+
+        <nav class="navbar bg-body-tertiary">
+
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="logo" alt="">
+                </div>
+                <div class="city">
+                    <a href="" class="navbar2"> Ваш город:</a>
+
+
+                    <a class="navbar" href="#">
+                        Москва
+                    </a>
+                    <a class="navbar" href="">Санкт-Петербург</a>
+                </div>
+
+                <div>Lamborghini Москва Запад 4А (внутренняя сторона)</div>
+                <div> Lamborghini Москва Сити Neva Towers, Красногвардейский пр., 10, стр.1</div>
+                <div class="phone">
+                    <a href=""> +7 (495) 776 77 77</a>
+                </div>
+            </div>
+        </nav>
+
+        
+        <div class="tab">
+            <button class="tablinks" onmouseover="openCity(event, 'home')">ГЛАВНАЯ</button>
+            <button class="tablinks" onmouseover="openCity(event, 'company')">О КОМПАНИИ</button>
+            <button class="tablinks" onmouseover="openCity(event, 'modil')"> МОДЕЛЬНЫЙ РЯД</button>
+            <button class="tablinks" onmouseover="openCity(event, 'auto')">АВТОМОБИЛИ В НАЛИЧИИ</button>
+            <button class="tablinks" onmouseover="openCity(event, 'events')">СОБЫТИЯ</button>
+            <button class="tablinks" onmouseover="openCity(event, 'service')">СЕРВИС</button>
+            <button class="tablinks" onmouseover="openCity(event, 'services')">УСЛУГИ</button>
+            <button class="tablinks" onmouseover="openCity(event, 'contacts')">КОНТАКТЫ</button>
+
+        </div>
+        <div class="logo">
+            <img src="logo.gif" alt="" class="logo_img">
+        </div>
+
+        <div id="home" class="tabcontent">
+            <h3>ГЛАВНАЯ</h3>
+
+            <div class="home_main">
+                <div>
+                    <img src="VWROG.gif" alt="Lamborghini Москва Запад, 60-й км МКАД, 4А (внутренняя сторона)">
+                </div>
+                <div class="home_txt">
+                    <h1>LAMBORGHINI</h1>
+                    <p>Lamborghini Москва и Lamborghini Санкт-Петербург - официальные дилеры
+                        Lamborghini в России входят в
+                        состав автомобильного холдинга АО «АВТОДОМ».</p>
+                    <p>
+
+                        Дилерские центры оказывают полный спектр услуг, включающий в себя продажу новых автомобилей и
+                        автомобилей с пробегом по программе Lamborghini Pre-owned, сервисное обслуживание и ремонт (в
+                        том числе
+                        и кузовной), продажу запасных частей и аксессуаров, услуги по программе Trade-in.
+
+                    </p>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark ">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
+
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>
+                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
+                    </div>
+                    <div>
+                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 777 77 77</a>
+                    </div>
+                </div>
+            </nav>
+
+            <footer class=" bg-dark w-100">
+                <div class="">
+                    <div class="">
+                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
+                            исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
+                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
+                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
+                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
+                            ознакомиться в разделе Контакты.</p>
+                    </div>
+                    <div class="copyright">
+                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
+                            защищены</a>
+                    </div>
+                    <div>
+                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
+                    </div>
+                </div>
+            </footer>
+
+
+
+        </div>
+
+        <div id="company" class="tabcontent">
+            <h3>О КОМПАНИИ</h3>
+            <div class="company_main">
+                <div class="company_txt">
+
+                    <p>Lamborghini Москва и Lamborghini Санкт-Петербург - официальные дилеры Lamborghini в России.</p>
+                    <p>Дилерские центры оказывают полный спектр услуг, включающий в себя продажу новых автомобилей и
+                        автомобилей
+                        с пробегом по программе Lamborghini Pre-owned, сервисное обслуживание и ремонт, продажу запасных
+                        частей
+                        и аксессуаров, услуги по программе Trade-in.</p>
+                    <p>В студии Ad Personam клиентам доступны разнообразные варианты цветовых решений, материалов,
+                        отделки и
+                        аксессуаров для создания уникальных суперкаров Lamborghini.</p>
+
+                </div>
+                <div>
+                    <img src="lamborghini-car.gif" alt="">
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark ">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
+
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>
+                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
+                    </div>
+                    <div>
+                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 777 77 77</a>
+                    </div>
+                </div>
+            </nav>
+            <footer class=" bg-dark w-100">
+                <div class="">
+                    <div class="">
+                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
+                            исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
+                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
+                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
+                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
+                            ознакомиться в разделе Контакты.</p>
+                    </div>
+                    <div class="copyright">
+                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
+                            защищены</a>
+                    </div>
+                    <div class="company_img">
+                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <div id="modil" class="tabcontent">
+            <h3> МОДЕЛЬНЫЙ РЯД</h3>
+            <div class="modil_main">
+                <div>
+
+                    <p>HURACAN</p>
+                    <P>REVUELTO</P>
+                    <P>URUS</P>
+                    <P>URUS URUS S</P>
+                    <P>МОДЕЛЬНЫЙ РЯД ИСТОРИЯ LAMBORGHINI</P>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="10.gif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="20.gif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="50.gif" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-dark bg-dark ">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
+
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>
+                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
+                    </div>
+                    <div>
+                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 777 77 77</a>
+                    </div>
+                </div>
+            </nav>
+            <footer class=" bg-dark w-100">
+                <div class="">
+                    <div class="">
+                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
+                            исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
+                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
+                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
+                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
+                            ознакомиться в разделе Контакты.</p>
+                    </div>
+                    <div class="copyright">
+                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
+                            защищены</a>
+                    </div>
+                    <div class="company_img">
+                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+        <div id="auto" class="tabcontent">
+            <h3>АВТОМОБИЛИ В НАЛИЧИИ</h3>
+            <div class="auto_main">
+
+
+                <div class="auto_img">
+                    <img src="00001.jpeg" alt="">
+
+                </div>
+
+                <div class="card p-5">
+
+                    <h1>
+                        Lamborghini Urus Urus S</h1>
+                    <h2 class="fw-bolder"> 52 000 000 Р</h2>
+                    <ul class="list-group list-group-flush p-5">
+                        14-й Красногвардейский пр., 82, стр.1
+                        <li class="list-group-item">Год выпуска_____________________________<span
+                                class="fw-bolder">2023</span></li>
+                        <li class="list-group-item">Двигатель_____________________________<span class="fw-bolder">3996
+                                см3, 666 ЛС</span></li>
+                        <li class="list-group-item">Цвет кузова_____________________________<span
+                                class="fw-bolder">Зеленый</span></li>
+                    </ul>
+                    <button type="button" class="btn btn-dark w-50">подробнее</button>
+                </div>
+
+
+            </div>
+            <div class="auto_main">
+
+
+                <div class="auto_img">
+                    <img src="00002.jpeg" alt="">
+
+                </div>
+
+                <div class="card p-5">
+
+                    <h1>
+                        Lamborghini Urus Urus S</h1>
+                    <h2 class="fw-bolder"> 39 000 000 Р</h2>
+                    <ul class="list-group list-group-flush p-5">
+                        14-й Красногвардейский пр., 82, стр.1
+                        <li class="list-group-item">Год выпуска_______________________________________<span
+                                class="fw-bolder">2021</span></li>
+                        <li class="list-group-item">Двигатель_______________________________________<span
+                                class="fw-bolder">3990 см3, 666 ЛС</span></li>
+                        <li class="list-group-item">Цвет кузова_______________________________________<span
+                                class="fw-bolder">Белый</span></li>
+                    </ul>
+                    <button type="button" class="btn btn-dark w-50">подробнее</button>
+                </div>
+
+
+            </div>
+
+            <div class="auto_main">
+
+
+                <div class="auto_img">
+                    <img src="00003.jpeg" alt="">
+
+                </div>
+
+                <div class="card p-5">
+
+                    <h1>
+                        Lamborghini Urus Urus S</h1>
+                    <h2 class="fw-bolder"> 57 000 000 Р</h2>
+                    <ul class="list-group list-group-flush p-5">
+                        14-й Красногвардейский пр., 82, стр.1
+                        <li class="list-group-item">Год выпуска_______________________________________<span
+                                class="fw-bolder">2023</span></li>
+                        <li class="list-group-item">Двигатель_______________________________________<span
+                                class="fw-bolder">3996 см3, 666 ЛС</span></li>
+                        <li class="list-group-item">Цвет кузова_______________________________________<span
+                                class="fw-bolder">Черный</span></li>
+                    </ul>
+                    <button type="button" class="btn btn-dark w-50">подробнее</button>
+                </div>
+
+
+            </div>
+
+
+            <div class="auto_main">
+
+
+                <div class="auto_img">
+                    <img src="00004.jpeg" alt="">
+
+                </div>
+
+                <div class="card p-5">
+
+                    <h1>
+                        Lamborghini Urus Urus S</h1>
+                    <h2 class="fw-bolder"> 52 000 000 Р</h2>
+                    <ul class="list-group list-group-flush p-5">
+                        14-й Красногвардейский пр., 82, стр.1
+                        <li class="list-group-item">Год выпуска_______________________________________<span
+                                class="fw-bolder">2023</span></li>
+                        <li class="list-group-item">Двигатель_______________________________________<span
+                                class="fw-bolder">3996 см3, 666 ЛС</span></li>
+                        <li class="list-group-item">Цвет кузова_______________________________________<span
+                                class="fw-bolder">Желтый</span></li>
+                    </ul>
+                    <button type="button" class="btn btn-dark w-50">подробнее</button>
+                </div>
+
+
+            </div>
+
+
+            <div class="auto_main">
+
+
+                <div class="auto_img">
+                    <img src="00005.jpeg" alt="">
+
+                </div>
+
+                <div class="card p-5">
+
+                    <h1>
+                        Lamborghini Urus Urus S</h1>
+                    <h2 class="fw-bolder"> 52 000 000 Р</h2>
+                    <ul class="list-group list-group-flush p-5">
+                        14-й Красногвардейский пр., 82, стр.1
+                        <li class="list-group-item">Год выпуска_____________________________________<span
+                                class="fw-bolder">2023</span></li>
+                        <li class="list-group-item">Двигатель_______________________________________________<span
+                                class="fw-bolder">3996 см3, 666 ЛС</span></li>
+                        <li class="list-group-item">Цвет кузова_____________________________________<span
+                                class="fw-bolder">Красный</span></li>
+                    </ul>__________
+                    <button type="button" class="btn btn-dark w-50">подробнее</button>
+                </div>
+
+
+            </div>
+
+
+            <div class="auto_main">
+
+
+                <div class="auto_img">
+                    <img src="00006.jpeg" alt="">
+
+                </div>
+
+                <div class="card p-5">
+
+                    <h1>
+                        Lamborghini Urus Urus S</h1>
+                    <h2 class="fw-bolder"> 52 000 000 Р</h2>
+                    <ul class="list-group list-group-flush p-5">
+                        14-й Красногвардейский пр., 82, стр.1
+                        <li class="list-group-item">Год выпуска_______________________________________<span
+                                class="fw-bolder">2023</span></li>
+                        <li class="list-group-item">Двигатель_______________________________________<span
+                                class="fw-bolder">3996 см3, 666 ЛС</span></li>
+                        <li class="list-group-item">Цвет кузова_______________________________________<span
+                                class="fw-bolder">Синий</span></li>
+                    </ul>
+                    <button type="button" class="btn btn-dark w-50">подробнее</button>
+                </div>
+
+
+            </div>
+
+
+            <div class="auto_main">
+
+
+                <div class="auto_img">
+                    <img src="00007.jpeg" alt="">
+
+                </div>
+
+                <div class="card p-5">
+
+                    <h1>
+                        Lamborghini Urus Urus S</h1>
+                    <h2 class="fw-bolder"> 52 000 000 Р</h2>
+                    <ul class="list-group list-group-flush p-5">
+                        14-й Красногвардейский пр., 82, стр.1
+                        <li class="list-group-item">Год выпуска_______________________________________<span
+                                class="fw-bolder">2023</span></li>
+                        <li class="list-group-item">Двигатель_______________________________________<span
+                                class="fw-bolder">3996 см3, 666 ЛС</span></li>
+                        <li class="list-group-item">Цвет кузова_______________________________________<span
+                                class="fw-bolder">Серый</span></li>
+                    </ul>
+                    <button type="button" class="btn btn-dark w-50">подробнее</button>
+                </div>
+
+
+            </div>
+            <nav class="navbar navbar-dark bg-dark ">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
+
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>
+                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
+                    </div>
+                    <div>
+                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 777 77 77</a>
+                    </div>
+                </div>
+            </nav>
+            <footer class=" bg-dark w-100">
+                <div class="">
+                    <div class="">
+                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
+                            исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
+                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
+                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
+                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
+                            ознакомиться в разделе Контакты.</p>
+                    </div>
+                    <div class="copyright">
+                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
+                            защищены</a>
+                    </div>
+                    <div class="company_img">
+                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+        <div id="events" class="tabcontent">
+            <h3>СОБЫТИЯ</h3>
+            <div class="events_main">
+                <div>
+                    <p>Суперкары Lamborghini дарят незабываемые эмоции и драйв. На наших мероприятиях Вы можете
+                        познакомиться с
+                        ДНК легендарного бренда.</p>
+                </div>
+                <div> <img src="3a3b44936cdcde60-aventador-gif-tumblr.gif" alt=""></div>
+            </div>
+
+
+        </div>
+
+        <div id="service" class="tabcontent">
+            <h3>СЕРВИС</h3>
+            <div class="service_main">
+                <div>
+                    <p>Сервисный центр Lamborghini Москва Запад и Lamborghini Санкт-Петербург всегда стремятся
+                        превосходить
+                        ожидания наших клиентов в отношении качества и исключительного обслуживания.
+                        Все специалисты прошли профессиональное обучение и получили сертификацию от
+                        завода-производителя. Мы
+                        используем только оригинальные запасные части Lamborghini, что обеспечивает максимальный уровень
+                        безопасности, надежности и эффективности при эксплуатации суперкара Lamborghini.
+                        Авторизованные сервисные центры по обслуживанию автомобилей Lamborghini находятся в Москве и
+                        Санкт-Петербурге. Кроме того, наши специалисты обеспечены всем необходим оборудованием для
+                        выездного
+                        ремонта в любом городе России.
+                        В рамках технического обслуживания и ремонта автомобилей Lamborghini Сервисный центр оказывает
+                        следующие
+                        виды услуг:
+                    </p>
+                    <ul>
+                        <li>техническое обслуживание;</li>
+                        <li>текущий ремонт;</li>
+                        <li>гарантийный ремонт;</li>
+                        <li>контрольно-диагностическое обслуживание и ремонт электрических и электронных систем;</li>
+                        <li>замена узлов и агрегатов;</li>
+                        <li>регулировочные работы (двигатель, коробка передач, рулевое управление, подвеска,
+                            осветительные
+                            приборы);</li>
+                        <li>ремонт и обслуживание систем кондиционирования;</li>
+                        <li>шиномонтажные работы и балансировка колес;</li>
+                        <li>установка дополнительного оборудования (аудио и видео системы, системы глобального
+                            обнаружения,
+                            элементы оригинальной отделки интерьера и экстерьера);</li>
+                        <li>продление времени действия гарантийного периода;</li>
+                        <li>консультации и информационная поддержка по вопросам эксплуатации автомобиля.</li>
+
+                    </ul>
+                </div>
+                <div>
+
+                    <img src="1391418427_1386641018.gif" alt="">
+                </div>
+            </div>
+
+
+            <nav class="navbar navbar-dark bg-dark ">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
+
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>
+                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
+                    </div>
+                    <div>
+                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 777 77 77</a>
+                    </div>
+                </div>
+            </nav>
+            <footer class=" bg-dark w-100">
+                <div class="">
+                    <div class="">
+                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
+                            исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
+                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
+                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
+                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
+                            ознакомиться в разделе Контакты.</p>
+                    </div>
+                    <div class="copyright">
+                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
+                            защищены</a>
+                    </div>
+                    <div class="company_img">
+                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div id="services" class="tabcontent">
+            <h3>УСЛУГИ</h3>
+            <div class="services_main">
+                <div>
+
+                    <h1>Финансовые услуги:</h1>
+                    <p>Lamborghini Москва и Lamborghini Санкт-Петербург предлагают исключительный выбор кредитных и
+                        страховых
+                        продуктов.</p>
+
+                </div>
+                <div>
+                    <h1>Страхование</h1>
+                    <ul>Специалисты нашей компании предоставят Вам полную информацию об условиях ведущих страховых
+                        компаний:
+                        <li> ВТБ Страхование;</li>
+                        <li>Ингосстарх;</li>
+                        <li>АльфаСтрахование.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+
+            <nav class="navbar navbar-dark bg-dark ">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
+
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>
+                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
+                    </div>
+                    <div>
+                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 777 77 77</a>
+                    </div>
+                </div>
+            </nav>
+            <footer class=" bg-dark w-100">
+                <div class="">
+                    <div class="">
+                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
+                            исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
+                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
+                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
+                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
+                            ознакомиться в разделе Контакты.</p>
+                    </div>
+                    <div class="copyright">
+                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
+                            защищены</a>
+                    </div>
+                    <div class="company_img">
+                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div id="contacts" class="tabcontent">
+            <h3>КОНТАКТЫ</h3>
+            <div class="contacts_main">
+                <div>
+                    <h4>Lamborghini Москва Запад.</h4>
+                    <p class="txt_dis">Адрес</p>
+                    <p>Москва, 90-й км МКАД, 4А
+                        (внутренняя сторона)
+                    </p>
+                    <p class="txt_dis">Email</p>
+                    <a href="info.msk@lamborghini-avtodom.ru">info.msk@lamborghini-avtodom.ru</a>
+                    <p class="txt_dis">Телефон</p>
+                    <a href="+7777777777">+7777777777</a>
+
+                    <p class="txt_dis"> Часы работы</p>
+                    <p>Ежедневно с 11:00 до 22:00</p>
+                    <img src="Без названия.png" alt="" class="cont_img">
+
+                </div>
+
+
+                <div> <img src="003.jpg" alt="" class="contacts_img"></div>
+
+
+            </div>
+            
+
+            <nav class="navbar navbar-dark bg-dark ">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
+
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>
+                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
+                    </div>
+                    <div>
+                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 777 77 77</a>
+                    </div>
+                </div>
+            </nav>
+            <footer class=" bg-dark w-100">
+                <div class="">
+                    <div class="">
+                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
+                            исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
+                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
+                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
+                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
+                            ознакомиться в разделе Контакты.</p>
+                    </div>
+                    <div class="copyright">
+                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
+                            защищены</a>
+                    </div>
+                    <div class="company_img">
+                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+
+        <div class="clearfix"></div>
+
+        <div class="footer">
+            <nav class="navbar navbar-dark bg-dark ">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
+
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>
+                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
+                    </div>
+                    <div>
+                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 777 77 77</a>
+                    </div>
+                </div>
+            </nav>
+            <footer class=" bg-dark w-100">
+                <div class="">
+                    <div class="">
+                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
+                            исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
+                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
+                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
+                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
+                            ознакомиться в разделе Контакты.</p>
+                    </div>
+                    <div class="copyright">
+                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
+                            защищены</a>
+                    </div>
+                    <div class="company_img">
+                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
