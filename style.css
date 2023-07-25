@@ -51,7 +51,7 @@ body {
   background: #ccc;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 100%;
 }
 
 .home_main {
@@ -60,13 +60,15 @@ body {
   justify-content: center;
   padding-bottom: 65px;
 
+
 }
 
 .home_txt {
   text-align: right;
-  width: 45%;
+  width: 40%;
   text-align: left;
   padding-top: 35px;
+  padding-right: 35px;
 
 }
 
@@ -81,7 +83,8 @@ body {
   display: flex;
   gap: 25px;
 }
-.footer{
+
+.footer {
   margin-top: 700px;
 }
 
@@ -124,17 +127,219 @@ footer {
 
 .auto_main {
   display: grid;
-  grid-template-columns: repeat(2, 40%);
+  grid-template-columns: repeat(2, 47%);
+  gap: 55px;
+  justify-content: space-evenly;
+  padding-bottom: 125px;
+}
+
+.avto_img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 1800px) {
+  .home_txt {
+    width: 35%;
+    text-align: left;
+    padding-right: 55px;
+
+  }
+
+
+
+  .contacts_main {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 750px);
+    padding-bottom: 65px;
+  }
+
+}
+
+
+
+@media (max-width: 1333px) {
+
+  .auto_main {
+    display: grid;
+    grid-template-columns: repeat(1, 95%);
+    grid-template-rows: repeat(2, 48%);
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avto_img {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .contacts_img {
+    width: 45%;
+  }
+
+  .contacts_main {
+    display: grid;
+    padding-top: 35px;
+    gap: 25px;
+    grid-template-columns: repeat(1, 45%);
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: repeat(2, 50%);
+    padding-bottom: 65px;
+  }
+
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .auto_main {
+    display: grid;
+    grid-template-columns: repeat(1, 95%);
+    grid-template-rows: repeat(2, 48%);
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avto_img {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+
+  .contacts_main {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1, 90%);
+    grid-template-rows: repeat(2, 50%);
+    grid-auto-flow: column;
+    grid-column: revert;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-top: -20px;
+  }
+
+  .cont_main1 {
+    order: -1;
+  }
+
+  .contacts_img {
+    width: 38%;
+  }
+
+  .cont_img {
+    width: 32%;
+  }
+
+
+}
+
+
+@media (max-width: 1100px) {
+
+  .home_main {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+
+
+  }
+
+  .home_txt {
+    width: 75%;
+    text-align: left;
+    padding-right: 55px;
+
+  }
+
+  .header_up {
+    display: none;
+  }
+
+}
+
+
+
+@media (max-width: 962px) {
+  .company_main {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .home_main_img {
+    width: 95%;
+    padding: 10px;
+  }
+
+
+  .company_txt {
+    text-align: right;
+    width: 55%;
+    text-align: left;
+    padding-top: 5px;
+
+  }
+
+  .modil_main {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    padding-bottom: 65px;
+
+  }
+
+  .events_main,
+  .service_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 45px;
+  }
+
+  .events_main_img {
+    width: 85%;
+  }
+
+
+
+}
+
+@media (max-width: 642px) {
+  .home_main_img {
+    width: 85%;
+    padding: 10px;
+  }
+
+  .events_main_img {
+    width: 75%;
+  }
+}
+
+
+
+.events_main {
+  display: flex;
   gap: 35px;
-  justify-content: space-between;
+  justify-content: center;
+  padding-bottom: 65px;
 }
 
-.auto_img {
-  width: 850px;
-  height: 850px;
-}
-
-.events_main,
 .service_main {
   display: flex;
   gap: 35px;
@@ -149,7 +354,11 @@ footer {
   padding-bottom: 65px;
   padding-top: 35px;
   background: url('bg1.jpg');
-  color: #fff;
+  background-size: cover;
+  font-size: 18px;
+  text-shadow: 2px 2px #0e0c0c;
+  width: 100%;
+  color: #ffffff;
   height: 750px;
 }
 
@@ -160,12 +369,16 @@ footer {
 .contacts_main {
   display: grid;
   gap: 15px;
-  grid-template-columns: repeat(2, 40%);
+  grid-template-columns: repeat(2, 45%);
   padding-bottom: 65px;
+  justify-content: space-around;
+  align-items: center;
 }
-.contacts_img{
-  width: 750px;
+
+.contacts_img {
+  width: 100%;
 }
-.cont_img{
-  width: 460px;
+
+.cont_img {
+  width: 75%;
 }

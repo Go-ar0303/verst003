@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Lamborghini</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link
@@ -17,32 +17,33 @@
 <body>
     <div class="header">
 
+        <div class="header_up">
+            <nav class="navbar bg-body-tertiary">
 
-        <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="logo" alt="">
+                    </div>
+                    <div class="city">
+                        <a href="" class="navbar2"> Ваш город:</a>
 
-            <div class="container-fluid">
-                <div class="logo">
-                    <img src="logo" alt="">
+
+                        <a class="navbar" href="#">
+                            Москва
+                        </a>
+                        <a class="navbar" href="">Санкт-Петербург</a>
+                    </div>
+
+                    <div>Lamborghini Москва Запад 4А </div>
+                    <div> Lamborghini Москва Сити Neva Towers, Красногвардейский пр., 10, стр.1</div>
+                    <div class="phone">
+                        <a href=""> +7 (495) 776 77 77</a>
+                    </div>
                 </div>
-                <div class="city">
-                    <a href="" class="navbar2"> Ваш город:</a>
+            </nav>
+        </div>
 
 
-                    <a class="navbar" href="#">
-                        Москва
-                    </a>
-                    <a class="navbar" href="">Санкт-Петербург</a>
-                </div>
-
-                <div>Lamborghini Москва Запад 4А (внутренняя сторона)</div>
-                <div> Lamborghini Москва Сити Neva Towers, Красногвардейский пр., 10, стр.1</div>
-                <div class="phone">
-                    <a href=""> +7 (495) 776 77 77</a>
-                </div>
-            </div>
-        </nav>
-
-        
         <div class="tab">
             <button class="tablinks" onmouseover="openCity(event, 'home')">ГЛАВНАЯ</button>
             <button class="tablinks" onmouseover="openCity(event, 'company')">О КОМПАНИИ</button>
@@ -63,7 +64,7 @@
 
             <div class="home_main">
                 <div>
-                    <img src="VWROG.gif" alt="Lamborghini Москва Запад, 60-й км МКАД, 4А (внутренняя сторона)">
+                    <img src="VWROG.gif" alt="Lamborghini Москва Запад, 60-й км МКАД, 4А (внутренняя сторона)" class="home_main_img">
                 </div>
                 <div class="home_txt">
                     <h1>LAMBORGHINI</h1>
@@ -306,7 +307,7 @@
 
 
                 <div class="auto_img">
-                    <img src="00001.jpeg" alt="">
+                    <img src="00001.jpeg" alt="" class="avto_img">
 
                 </div>
 
@@ -317,11 +318,11 @@
                     <h2 class="fw-bolder"> 52 000 000 Р</h2>
                     <ul class="list-group list-group-flush p-5">
                         14-й Красногвардейский пр., 82, стр.1
-                        <li class="list-group-item">Год выпуска_____________________________<span
+                        <li class="list-group-item">Год выпуска_________________________<span
                                 class="fw-bolder">2023</span></li>
-                        <li class="list-group-item">Двигатель_____________________________<span class="fw-bolder">3996
+                        <li class="list-group-item">Двигатель_________________________<span class="fw-bolder">3996
                                 см3, 666 ЛС</span></li>
-                        <li class="list-group-item">Цвет кузова_____________________________<span
+                        <li class="list-group-item">Цвет кузова_________________________<span
                                 class="fw-bolder">Зеленый</span></li>
                     </ul>
                     <button type="button" class="btn btn-dark w-50">подробнее</button>
@@ -333,7 +334,7 @@
 
 
                 <div class="auto_img">
-                    <img src="00002.jpeg" alt="">
+                    <img src="00002.jpeg" alt="" class="avto_img">
 
                 </div>
 
@@ -344,11 +345,11 @@
                     <h2 class="fw-bolder"> 39 000 000 Р</h2>
                     <ul class="list-group list-group-flush p-5">
                         14-й Красногвардейский пр., 82, стр.1
-                        <li class="list-group-item">Год выпуска_______________________________________<span
+                        <li class="list-group-item">Год выпуска___________________________________<span
                                 class="fw-bolder">2021</span></li>
-                        <li class="list-group-item">Двигатель_______________________________________<span
+                        <li class="list-group-item">Двигатель___________________________________<span
                                 class="fw-bolder">3990 см3, 666 ЛС</span></li>
-                        <li class="list-group-item">Цвет кузова_______________________________________<span
+                        <li class="list-group-item">Цвет кузова___________________________________<span
                                 class="fw-bolder">Белый</span></li>
                     </ul>
                     <button type="button" class="btn btn-dark w-50">подробнее</button>
@@ -361,7 +362,7 @@
 
 
                 <div class="auto_img">
-                    <img src="00003.jpeg" alt="">
+                    <img src="00003.jpeg" alt="" class="avto_img">
 
                 </div>
 
@@ -372,11 +373,11 @@
                     <h2 class="fw-bolder"> 57 000 000 Р</h2>
                     <ul class="list-group list-group-flush p-5">
                         14-й Красногвардейский пр., 82, стр.1
-                        <li class="list-group-item">Год выпуска_______________________________________<span
+                        <li class="list-group-item">Год выпуска___________________________________<span
                                 class="fw-bolder">2023</span></li>
-                        <li class="list-group-item">Двигатель_______________________________________<span
+                        <li class="list-group-item">Двигатель___________________________________<span
                                 class="fw-bolder">3996 см3, 666 ЛС</span></li>
-                        <li class="list-group-item">Цвет кузова_______________________________________<span
+                        <li class="list-group-item">Цвет кузова___________________________________<span
                                 class="fw-bolder">Черный</span></li>
                     </ul>
                     <button type="button" class="btn btn-dark w-50">подробнее</button>
@@ -390,7 +391,7 @@
 
 
                 <div class="auto_img">
-                    <img src="00004.jpeg" alt="">
+                    <img src="00004.jpeg" alt="" class="avto_img">
 
                 </div>
 
@@ -419,7 +420,7 @@
 
 
                 <div class="auto_img">
-                    <img src="00005.jpeg" alt="">
+                    <img src="00005.jpeg" alt="" class="avto_img">
 
                 </div>
 
@@ -430,11 +431,11 @@
                     <h2 class="fw-bolder"> 52 000 000 Р</h2>
                     <ul class="list-group list-group-flush p-5">
                         14-й Красногвардейский пр., 82, стр.1
-                        <li class="list-group-item">Год выпуска_____________________________________<span
+                        <li class="list-group-item">Год выпуска_________________________________<span
                                 class="fw-bolder">2023</span></li>
-                        <li class="list-group-item">Двигатель_______________________________________________<span
+                        <li class="list-group-item">Двигатель___________________________________________<span
                                 class="fw-bolder">3996 см3, 666 ЛС</span></li>
-                        <li class="list-group-item">Цвет кузова_____________________________________<span
+                        <li class="list-group-item">Цвет кузова_________________________________<span
                                 class="fw-bolder">Красный</span></li>
                     </ul>__________
                     <button type="button" class="btn btn-dark w-50">подробнее</button>
@@ -448,7 +449,7 @@
 
 
                 <div class="auto_img">
-                    <img src="00006.jpeg" alt="">
+                    <img src="00006.jpeg" alt="" class="avto_img">
 
                 </div>
 
@@ -477,7 +478,7 @@
 
 
                 <div class="auto_img">
-                    <img src="00007.jpeg" alt="">
+                    <img src="00007.jpeg" alt="" class="avto_img">
 
                 </div>
 
@@ -488,11 +489,11 @@
                     <h2 class="fw-bolder"> 52 000 000 Р</h2>
                     <ul class="list-group list-group-flush p-5">
                         14-й Красногвардейский пр., 82, стр.1
-                        <li class="list-group-item">Год выпуска_______________________________________<span
+                        <li class="list-group-item">Год выпуска___________________________________<span
                                 class="fw-bolder">2023</span></li>
-                        <li class="list-group-item">Двигатель_______________________________________<span
+                        <li class="list-group-item">Двигатель___________________________________<span
                                 class="fw-bolder">3996 см3, 666 ЛС</span></li>
-                        <li class="list-group-item">Цвет кузова_______________________________________<span
+                        <li class="list-group-item">Цвет кузова___________________________________<span
                                 class="fw-bolder">Серый</span></li>
                     </ul>
                     <button type="button" class="btn btn-dark w-50">подробнее</button>
@@ -560,7 +561,7 @@
                         познакомиться с
                         ДНК легендарного бренда.</p>
                 </div>
-                <div> <img src="3a3b44936cdcde60-aventador-gif-tumblr.gif" alt=""></div>
+                <div> <img src="3a3b44936cdcde60-aventador-gif-tumblr.gif" alt="" class="events_main_img"></div>
             </div>
 
 
@@ -739,7 +740,7 @@
         <div id="contacts" class="tabcontent">
             <h3>КОНТАКТЫ</h3>
             <div class="contacts_main">
-                <div>
+                <div class="cont_main">
                     <h4>Lamborghini Москва Запад.</h4>
                     <p class="txt_dis">Адрес</p>
                     <p>Москва, 90-й км МКАД, 4А
@@ -757,11 +758,13 @@
                 </div>
 
 
-                <div> <img src="003.jpg" alt="" class="contacts_img"></div>
+                <div class="cont_main1">
+                    <img src="003.jpg" alt="" class="contacts_img">
+                </div>
 
 
             </div>
-            
+
 
             <nav class="navbar navbar-dark bg-dark ">
 
@@ -817,66 +820,15 @@
 
 
 
-        <div class="clearfix"></div>
-
-        <div class="footer">
-            <nav class="navbar navbar-dark bg-dark ">
-
-                <div class="container-fluid">
-                    <div class="logo">
-                        <img src="" alt="">
-                    </div>
-                    <div class="city">
-                        <a href="" class="navbar2"> Ваш город:</a>
-
-
-                        <a class="navbar" href="#">
-                            Москва
-                        </a>
-                        <a class="navbar" href="">Санкт-Петербург</a>
-                    </div>
-
-                    <div>
-                        <p class="text-white">Lamborghini Москва Запад, 80-й км МКАД, 4А (внутренняя сторона)</p>
-                    </div>
-                    <div>
-                        <p class="text-white"> Lamborghini Москва Сити Neva Towers, 1-й Красногвардейский пр., 67, стр.1
-                        </p>
-                    </div>
-                    <div class="phone">
-                        <a href=""> +7 (495) 777 77 77</a>
-                    </div>
-                </div>
-            </nav>
-            <footer class=" bg-dark w-100">
-                <div class="">
-                    <div class="">
-                        <p class="text-white p-5">Обращаем ваше внимание на то, что данный интернет-сайт носит
-                            исключительно информационный
-                            характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.
-                            437 Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии
-                            и стоимости указанных товаров и (или) услуг, об условиях и времени проведения акций,
-                            пожалуйста, обращайтесь к менеджерам отдела продаж. С адресом и телефоном вы можете
-                            ознакомиться в разделе Контакты.</p>
-                    </div>
-                    <div class="copyright">
-                        <a href="#" target="_blank" class="text-center">© 2000-2022 lamborghini-avtodom Все права
-                            защищены</a>
-                    </div>
-                    <div class="company_img">
-                        <p class="text-end pb-5"><a href="">Согласие на обработку персональных данных </a></p>
-                    </div>
-                </div>
-            </footer>
+        <div class="clearfix">
         </div>
-
-
-
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+
+        </script>
+
 </body>
 
 </html>
